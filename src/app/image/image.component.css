@@ -2,7 +2,7 @@
     display: inline-block;
     position: relative;
     width: 19%;
-    margin: auto;
+    margin: 10px;
 }
 
 a {
@@ -41,5 +41,6 @@ a:hover span {
 @media (max-width: 425px) {
     :host {
         width: 100%;
+        margin: 10px auto;
     }
 }
