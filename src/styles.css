@@ -14,4 +14,9 @@ html, body {
 
 body {
     background-color: #f9f9f9;
+    display: flex;
 }
+
+    body > app-root {
+        margin: auto;
+    }
