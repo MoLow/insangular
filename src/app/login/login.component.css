@@ -2,3 +2,21 @@
     text-align: center;
     margin: auto;
 }
+
+a {
+    background: linear-gradient(to right, rgba(238,88,63,1) 0%, rgba(238,88,63,1) 8%, rgba(217,45,120,1) 42%, rgba(189,51,129,1) 58%, rgba(189,51,129,1) 100%);
+    background-color: #bd3381;
+    text-decoration: none;
+    color: #fff;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 5px 30px;
+}
+
+    a svg {
+        height: 30px;
+        width: 30px;
+        margin-right: 20px;
+        fill: #fff;
+        vertical-align: middle;
+    }
