@@ -1,0 +1,12 @@
+<div>
+    <div class="last-tags">
+        <a *ngFor="let tag of tags" (click)="getItems(tag)">{{tag}} </a>
+    </div>
+    <div class="form">
+        <input #tag (keyup.enter)="getItems(tag.value)" placeholder="tag" />
+        <button (click)="getItems(tag.value)">Search</button>
+    </div>
+    <div>
+        <app-image *ngFor="let image of images" [image]="image"></app-image>
+    </div>
+</div>
