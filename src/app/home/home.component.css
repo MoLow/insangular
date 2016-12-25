@@ -22,7 +22,7 @@
 
 .images {
     display: flex;
-    margin: auto 20px;
+    margin: auto;
     max-width: 1200px;
     justify-content: center;
 }
@@ -30,5 +30,6 @@
 @media (max-width: 425px) {
     .images {
         display: block;
+        margin: auto 20px;
     }
 }
